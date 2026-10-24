@@ -5,14 +5,15 @@
 // Example:
 // checkOddEven(8) ? "Even"
 // checkOddEven(5) ? "Odd"
-
 const checkOddEven = (num) => {
-if (num %2 === 0){
-    console.log('even');
-}else{
-    console.log('odd');
-}
+    if(num%2===0){
+        return "Even";
 
+    }else{
+        return "odd";
+    }
 };
+let number = 11;
+console.log(number+"is"+ checkOddEven (number)+"Number");
 
 module.exports = checkOddEven;
